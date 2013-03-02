@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">SQLite2</string>
+
+
+    <string name="b1">AñadirUsuario</string>
+    <string name="b2">VerificarUsuario</string>
+    <string name="TvMain">Añadir Y Verificar Usuarios</string>
+    <string name="b3">Ver Todos los Usuarios</string>
+    <string name="radio1">Normal</string>
+    <string name="radio2">Admin</string>
+    <string name="bAdd">Añadir</string>
+    <string name="verifyUser">Nombre del Usuario</string>
+    <string name="verifyPass">Password del Usuario</string>
+
+	
+</resources>

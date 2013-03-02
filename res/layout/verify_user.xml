@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    		xmlns:android1="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/verifyE1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/verifyUser"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/verifyE2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/verifyPass"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android1:id="@+id/button1"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/b2" />
+
+            <TextView
+                android1:id="@+id/textView1"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text=""
+                android1:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+</ScrollView>
